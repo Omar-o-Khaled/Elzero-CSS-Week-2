@@ -1,0 +1,26 @@
+h3{
+    width: fit-content;
+    background-color: yellow;
+
+}
+.parent .child .title{
+    color: red;
+}
+.parent .title{
+    color: blue;
+}
+
+.parent p,
+.title{
+    color: green;
+}
+
+p.word{
+    background-color: #7c1a13;
+    color: white;
+    font-size: 20px;
+    width: fit-content;
+    max-width: 400px;
+    max-height: 50px;
+    padding: 10px;
+}

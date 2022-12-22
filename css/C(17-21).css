@@ -1,0 +1,58 @@
+h3{
+    background-color: yellow;
+    width: fit-content;
+}
+.shadow{
+    text-shadow: 1px 1px 0px red, 2px 2px 0 blue;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+
+.one{
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.two{
+    text-transform: capitalize;
+    font-weight: bold;
+
+}
+
+.three{
+    text-transform: lowercase;
+    font-weight: bold;
+}
+
+.test1,
+.test2,
+.test3{
+    background-color: #eee;
+    margin: 10px;
+    max-width: 400px;
+    padding: 10px;
+}
+
+.test2{
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.test3{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+a{
+    background-color: #009688;
+    font-size: 30px;
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-bottom: 5px solid #00514a;
+}
